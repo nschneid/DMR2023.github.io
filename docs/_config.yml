@@ -31,7 +31,7 @@ twitter_username: dmr2023
 github_username:  DMR2023
 
 # Build settings
-theme: alembic
+theme: jekyll-theme-clean-blog
 plugins:
   - jekyll-feed
 
