@@ -16,36 +16,27 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-# Workshop Description
+DMR 2023, the Fourth International Workshop on Designing Meaning Representations, will be co-located with IWCS 2023. It will be held on June 20th, 2023, in Nancy, France.
 
-Linguistic annotation of natural language corpora is the backbone of supervised methods of statistical natural language processing and has contributed to breakthroughs in practical natural language applications, most notably in Machine Translation, Machine Reading, Question Answering, and Recognizing Textual Entailment. Nonetheless, challenges remain in developing systems that can actually "understand human language, including the ability to track entities in a text, understand the relations between these entities, track events and their participants described in a text, understand how events unfold in time, and distinguish events that have actually happened from events that are planned or intended, are uncertain, or did not happen at all. The fifteenth LAW and third DMR workshops are combined for the first time to provide a forum for presentation and discussion of innovative research on all aspects of linguistic annotation, with a special focus on the design and annotation of representations of the various elements of meaning contributing to understanding.
+While deep learning methods have led to many breakthroughs in practical natural language applications, most notably in Machine Translation, Machine Reading, Question Answering, Recognizing Textual Entailment, and so on, there is still a sense among many NLP researchers that we have a long way to go before we can develop systems that can actually “understand” human language and explain the decisions they make. Indeed, “understanding” natural language entails many different human-like capabilities, and they include but are not limited to the ability to track entities in a text, understand the relations between these entities, track events and their participants described in a text, understand how events unfold in time, and distinguish events that have actually happened from events that are planned or intended, are uncertain, or did not happen at all. We believe a critical step in achieving natural language understanding is to design meaning representations for text that have the necessary meaning “ingredients” that help us achieve these capabilities.  Such meaning representations can also potentially be used to evaluate the compositional generalization capacity of deep learning models.
 
-This workshop intends to bring together researchers who are producers and consumers of linguistic annotations and meaning representations. Through their interaction, we will gain a deeper understanding of both the kinds of annotations generally, and the key elements of meaning representations specifically, that are the most valuable to the NLP community. The workshop will also provide an opportunity for researchers to critically examine existing annotation frameworks and to explore opportunities and identify challenges in the design and use of linguistic annotations in multilingual settings.
+There has been a growing body of research devoted to the design, annotation, and parsing of meaning representations in recent years. The meaning representations that have been used for semantic parsing research are developed with different linguistic perspectives and practical goals in mind and have different formal properties. Formal meaning representation frameworks such as Minimal Recursion Semantics (MRS) and Discourse Representation Theory (as exemplified in the Parallel Meaning Bank) are developed with the goal of supporting logical inference in reasoning-based AI systems and are therefore easily translatable into first-order logic, requiring proper representation of semantic components such as quantification, negation, tense, and modality. Other meaning representation frameworks such as Abstract Meaning Representation (AMR), Tecto-grammatical Representation (TR) in Prague Dependency Treebanks and the Universal Conceptual Cognitive Annotation (UCCA), put more emphasis on the representation of core predicate-argument structure, lexical semantic information such as semantic roles and word senses, or named entities and relations. There is also a more recent effort in developing a Uniform Meaning Representation (UMR) that is based on AMR but extends it to cross-linguistic settings and enhances it to represent document-level semantic content. The automatic parsing of natural language text into these meaning representations and the generation of natural language text from these meaning representations are also very active areas of research, and a wide range of technical approaches and learning methods have been applied to these problems. 
 
-Given that this is the first joint LAW and DMR workshop, a final goal of this workshop will be to explore multi-layered annotations and how different types of annotations can be brought together to enhance progress towards true understanding. This may include annotation schemas representing multiple facets of meaning (for example, both semantic roles and coreference), or leveraging one type of annotation to bootstrap obtaining another (for example, leveraging automatic SRL for a sentential meaning representation). This may also include annotations from multiple modalities (for example, transcribed text and accompanying images), as understanding can often hinge upon linguistic meaning within a particular situated context.
+This workshop will bring together researchers who are producers and consumers of meaning representations, and through their interaction develop a deeper understanding of the key elements of meaning representations that are the most valuable to the NLP community. The workshop will also provide an opportunity for meaning representation researchers to critically examine existing frameworks with the goal of using their findings to inform the design of next-generation meaning representations. A third goal of the workshop is to explore opportunities and identify challenges in the design and use of meaning representations in multilingual settings. A final goal of the workshop is to understand the relationship between distributed meaning representations trained on large data sets using network models, and the symbolic meaning representations that are carefully designed and annotated by NLP researchers and gain a deeper understanding of areas where each type of meaning representation is the most effective. 
 
-The workshop will include long (8+1 pages) and short (4+1 pages) papers, posters, and demonstrations relating to the following topics:
-- Creation/evaluation of annotation schemas and meaning representations;
-- Cross-framework comparison of annotations and meaning representations;
-- Methods for manual and automatic annotation, including automatic parsing of meaning representations;
-- Use and evaluation of annotation software and frameworks;
-- Semi-supervised "human in the loop" methods of annotation and crowd-sourcing approaches;
-- Using annotations and meaning representations in real-world applications;
-- Issues in applying annotations and meaning representations to multilingual settings;
-- Multi-layered and multi-modal annotations;
-- Any other topics that address the design, processing, and use of linguistic annotations and/or meaning representations.
+The workshop solicits papers that address one or more of the following topics: 
 
-# Background
-
-Linguistic annotation of natural language corpora is the backbone of supervised methods of statistical natural language processing. The Linguistic Annotation Workshop (LAW) is the annual workshop of the ACL Special Interest Group on Annotation (SIGANN), and it provides a forum for the presentation and discussion of innovative research on all aspects of linguistic annotation, including the creation and evaluation of annotation schemes, methods for automatic and manual annotation, use and evaluation of annotation software and frameworks, representation of linguistic data and annotations, semi-supervised “human in the loop” methods of annotation, crowd-sourcing approaches, and more. As in the past, the LAW will provide a forum for annotation researchers to work towards standardization, best practices, and interoperability of annotation information and software.
-
-# Anti-Harassment Policy
-
-ACL Anti-Harassment Policy.
-
-# Author Responsibilities
-
-Papers must be of original, previously-unpublished work. Papers must be anonymized to support double-blind reviewing. If the paper is available as a preprint, this must be indicated on the submission form but not in the paper itself. In addition, EMNLP 2021 will follow the same policy as ACL'2018 establishing an anonymity period (from submission to author notification) during which non-anonymous posting of preprints is not allowed. Also included in that policy are instructions to reviewers to not rate papers down for not citing recent preprints. Authors are asked to cite published versions of papers instead of preprint versions when possible.
+- Design and annotation of meaning representations;
+- Cross-framework comparison of meaning representations;
+- Challenges and techniques in automatic parsing of meaning representations;
+- Challenges and techniques in automatically generating text from meaning representations; 
+- Meaning representation evaluation metrics;
+- Lexical resources, ontologies, and grounding in relation to meaning representations;
+- Real-world applications of meaning representations;
+- Issues in applying meaning representations to multilingual settings and lower-resourced languages;
+- The relationship between symbolic meaning representations and distributed semantic representations; 
+- Formal properties of meaning representations;
+- Any other topics that address the design, processing, and use of meaning representations. 
 
 
 
