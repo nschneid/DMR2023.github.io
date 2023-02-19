@@ -1,0 +1,18 @@
+<div class="strong">   
+  
+      {%- if site.profile.ddls  -%}
+        <div class="table" style="margin-right: 1rem">
+        <table>
+        {% tablerow ddl in site.profile.ddls cols:4%}
+        {{ ddl }}
+        {% endtablerow %}
+        </table>
+      </div>
+      {%- endif -%}
+
+  {%- if site.profile.address %}          
+    <div class="address">
+      {{ site.profile.address }}
+    </div>
+  {%- endif %}
+</div>

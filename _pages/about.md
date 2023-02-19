@@ -3,18 +3,14 @@ layout: about
 title: about
 permalink: /
 subtitle: The 4th International Workshop on Designing Meaning Representation # <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p> General Timeline </p>
+include_ddls: true
 
 updates: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
+
+<br />
 
 DMR 2023, the Fourth International Workshop on Designing Meaning Representations, will be co-located with IWCS 2023. It will be held on June 20th, 2023, in Nancy, France.
 
