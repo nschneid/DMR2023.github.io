@@ -2,7 +2,7 @@
 layout: page
 permalink: /submission/
 title: SUBMISSIONS
-description: Click <a href='https://softconf.com/iwcs2023/dmr2023'><b>here</b></a> to submission site
+description: Click <a href='https://softconf.com/iwcs2023/dmr2023'><b><u>here</u></b></a> to submission site
 nav: true
 nav_order: 1
 include_ddls: true
@@ -17,5 +17,5 @@ Reviewing of papers will be double-blind. Therefore, the paper must not include 
 
 Authors of papers that have been or will be submitted to other meetings or publications must provide this information to the workshop organizers <a href='mailto: dmr2023-chairs@googlegroups.com'>dmr2023-chairs@googlegroups.com</a>. Authors of accepted papers must notify the program chairs within 10 days of acceptance if the paper is withdrawn for any reason.
 
-<font color=pink> DMR 2023 does not have an anonymity period. However, we ask you to be reasonable and not publicly advertise your preprint during (or right before) review. </font>
+<font color="red"> DMR 2023 does not have an anonymity period. However, we ask you to be reasonable and not publicly advertise your preprint during (or right before) review. </font>
 
