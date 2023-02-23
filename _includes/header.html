@@ -7,14 +7,16 @@
           <!-- if page.permalink != '/'  -->
           
           <!-- <li class="nav-item {% if page.permalink == '/' %}active{% endif %}"> -->
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-              {{- site.title -}}
+          
+<!--           <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+              {{ site.title }}
           </a>
+           -->
           <!-- </li> -->
           <!-- elsif site.enable_navbar_social -->
           <!-- Social Icons -->
 <!--           <div class="navbar-brand social">
-            {% include social.html %}
+            { include social.html }
           </div> -->
           <!-- endif -->
 
@@ -26,34 +28,24 @@
             <span class="icon-bar bottom-bar"></span>
           </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
-
-              {%- for page in site.pages -%}
-                {% if page.permalink == '/' %}
-                  {% assign about_title = page.title %}
-                {% endif %}
-              {% endfor %}
+          <div class="collapse navbar-collapse text-left" id="navbarNav">
+            
+            <ul class="navbar-nav mr-auto flex-nowrap">
+<!-- 
+              { for page in site.pages }
+                { if page.permalink == '/' }
+                  { assign about_title = page.title }
+                { endif }
+              { endfor } -->
 
               <!-- About -->
-<!--               <li class="nav-item { if page.permalink == '/' }active{ endif }">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
-                  { if page.permalink == '/' }
+              <li class="nav-item {% if page.permalink == '/' -%}active{% endif -%}">
+                <a class="nav-link" href="{{ '/' | relative_url }}">{{ site.home_title }}
+                  {% if page.permalink == '/' %}
                   <span class="sr-only">(current)</span>
-                  { endif }
+                  {% endif %}
                 </a>
               </li>
- -->
-              {% if site.blog_nav_title %}
-              <!-- Call for paper -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/invited_talks/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -88,6 +80,20 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              {% if site.blog_nav_title %}
+              <!-- Call for paper -->
+              <li class="nav-item {% if page.url contains 'invited_talks' %}active{% endif %}">
+                <a class="nav-link" href="{{ '/invited_talks/' | relative_url }}">{{ site.blog_nav_title }}
+                  {%- if page.url contains 'invited_talks' -%}
+                  <span class="sr-only">(current)</span>
+                  {%- endif -%}
+                </a>
+              </li>
+              {%- endif %}
+
+
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->

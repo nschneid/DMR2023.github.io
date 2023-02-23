@@ -1,9 +1,9 @@
-<div class="strong">   
+<div>   
   
       {%- if site.profile.ddls  -%}
-        <div class="table" style="margin-right: 1rem">
+        <div class="table">
         <table>
-        {% tablerow ddl in site.profile.ddls cols:4%}
+        {% tablerow ddl in site.profile.ddls cols:2 %}
         {{ ddl }}
         {% endtablerow %}
         </table>

@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /submission/
-title: Submission
-description: <a href='https://softconf.com/iwcs2023/dmr2023'>Click here to submission site</a>
+title: SUBMISSIONS
+description: Click <a href='https://softconf.com/iwcs2023/dmr2023'><b>here</b></a> to submission site
 nav: true
 nav_order: 1
 include_ddls: true

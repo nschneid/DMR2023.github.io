@@ -4,8 +4,13 @@
 
 // Typography
 
-p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
+p, h1, h2, h3, h4, h5, h6, em, div, li, span {
   color: var(--global-text-color);
+}
+
+strong {
+  color: var(--global-text-color);
+  text-align: center;
 }
 
 hr {
@@ -19,6 +24,8 @@ table {
   td {
     font-size: 1rem;
   }
+  align: center;
+  margin: 0 auto;
 }
 
 a, table.table a {
@@ -333,6 +340,10 @@ footer.sticky-bottom {
   h1 {
     color: var(--global-theme-color);
     font-size: 5rem;
+  }
+  h5 {
+    color: var(--global-text-color);
+    font-size: 1.35rem;
   }
 }
 

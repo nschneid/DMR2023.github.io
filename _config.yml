@@ -2,7 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: DMR2023 # the website title (if blank, full name will be used instead)
+title: DMR 2023 # the website title (if blank, full name will be used instead)
+home_title: WORKSHOP/CALL
 first_name: test1
 middle_name: test2
 last_name: test3
@@ -119,8 +120,8 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Invited Talks # blog_name will be displayed in your blog page
-blog_nav_title: # your blog must have a title for it to be displayed in the nav bar
+blog_name: INVITED TALKS # blog_name will be displayed in your blog page
+blog_nav_title: INVITED TALKS # your blog must have a title for it to be displayed in the nav bar
 blog_description: 
 permalink: /blog/:year/:title/
 
@@ -247,7 +248,7 @@ jekyll-archives:
     tag: '/blog/tag/:name/'
     category: '/blog/category/:name/'
 
-display_tags: [] # this tags will be dispalyed on the front page of your blog
+display_tags: false # [] # this tags will be dispalyed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
