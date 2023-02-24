@@ -2,7 +2,7 @@
 layout: page
 permalink: /submission/
 title: SUBMISSIONS
-description: Click <a href='https://softconf.com/iwcs2023/dmr2023'><b><u>here</u></b></a> to submission site
+description: Click <a href='https://softconf.com/iwcs2023/dmr2023'><b><u>here</u></b></a> to submit your paper
 nav: true
 nav_order: 1
 include_ddls: true
