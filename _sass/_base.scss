@@ -340,7 +340,7 @@ footer.sticky-bottom {
   padding-bottom: 3rem;
   h1 {
     color: var(--global-theme-color);
-    font-size: calc(1.5rem+5vw);
+    font-size: calc(1.5rem + 5vw + 1vh);
   }
   h5 {
     color: var(--global-text-color);
