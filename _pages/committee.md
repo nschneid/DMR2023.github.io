@@ -16,11 +16,6 @@ include_ddls: false
 * Nianwen Xue,		 Brandeis University
 * Julia Bonn,		 University of Colorado Boulder
 
-## Publicity Chairs
-
-* Kristine Stenzel,     University of Colorado Boulder
-* Haibo Sun,        Brandeis University
-
 ## Organizing Committee
 
 * Omri Abend,		 Hebrew University of Jerusalem
@@ -68,5 +63,10 @@ include_ddls: false
 * Uresova, Zdenka,      Charles University
 * Vaidya, Ashwini,      Indian Institute of Technology Delhi
 * Zeldes, Amir,     Georgetown University
+
+## Publicity Chairs
+
+* Kristine Stenzel,     University of Colorado Boulder
+* Haibo Sun,        Brandeis University
 
 
