@@ -2,7 +2,7 @@
 layout: cv
 permalink: /program/
 title: PROGRAM
-description: Coming Soon!
+description:
 nav: true
 nav_order: 4
 cv_pdf: false

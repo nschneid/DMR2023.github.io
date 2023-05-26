@@ -1,0 +1,130 @@
+- title:
+  type: time_table
+  contents:
+    - title: Invited Talk 1
+      institution:
+      year: "9:00 - 9:50"
+- title:
+  type: time_table
+  contents:
+    - title: Structural and Global Features for Comparing Semantic Representation Formalisms
+      institution: "<em>Siyana Pavlova<sup>1</sup>,&nbsp;Maxime Amblard<sup>1</sup>,&nbsp;Bruno Guillaume<sup>2</sup></em>"   
+      year: "9:50 - 10:10"
+      description:
+        - <sup>1</sup>Université de Lorraine, 
+        - <sup>2</sup>LORIA / Inria Nancy Grand-Est
+    - title: Evaluation of Universal Semantic Representation (USR)
+      institution: "<em>Kirti Garg<sup>1</sup>,&nbsp;Soma Paul<sup>2</sup>,&nbsp;Sukhada Sukhada<sup>3</sup>,&nbsp;Fatema Bawahir<sup>4</sup>,&nbsp;Riya Kumari<sup>5</sup></em>"
+      year: "10:10 - 10:30"
+      description:
+        - <sup>1</sup>International Insitute ofInformation Technology-Hyderabad (IIIT-H)
+        - <sup>2</sup>IIIT-Hyderabad
+        - <sup>3</sup>IIT (BHU), Varanasi
+        - <sup>4</sup>Not Affliated
+        - <sup>5</sup>IIT-BHU
+- title:
+  type: time_table
+  contents:
+    - title: Break
+      year: "10: 30 - 11:00"
+
+- title:
+  type: time_table
+  contents:
+    - title: Comparing UMR and Cross-lingual Adaptations of AMR
+      institution: <em>Shira Wein<sup>1</sup> and Julia Bonn<sup>2</sup></em>
+      year: 11:00 - 11:20
+      description:
+        - <sup>1</sup>Georgetown University
+        - <sup>2</sup>University of Colorado, Boulder
+    - title: AMR for Grounded Human-Robot Communication
+      institution: <em>Claire Bonial<sup>1</sup>,&nbsp;Julie Foresta<sup>1</sup>,&nbsp;Nicholas Fung<sup>1</sup>,&nbsp;Cory Hayes<sup>1</sup>,&nbsp;Philip Osteen<sup>1</sup>,&nbsp;Jacob Arkin<sup>2</sup>,&nbsp;Benned Hedegaard<sup>3</sup>,&nbsp;Thomas Howard<sup>3</sup></em>
+      year: 11:20 - 11:40 
+      description:
+        - <sup>1</sup>US Army Research Lab
+        - <sup>2</sup>Massachusetts Institute of Technology
+        - <sup>3</sup>University of Rochester
+    - title: Annotating Situated Actions in Dialogue
+      institution: <em>Christopher Tam,&nbsp;Richard Brutti,&nbsp;Kenneth Lai,&nbsp;James Pustejovsky</em>
+      year: 11:40 - 11:55
+      description:
+        - Brandeis University
+    - title: "From Sentence to Action: Splitting AMR Graphs for Recipe Instructions"
+      institution: <em>Katharina Stein<sup>1</sup>,&nbsp;Lucia Donatelli<sup>2</sup>,&nbsp;Alexander Koller<sup>1</sup></em>
+      year: 11:55 - 12:15
+      description:
+        - <sup>1</sup>Saarland University
+        - <sup>2</sup>Vrije Universiteit Amsterdam
+    - title: "Meaning Representation of English Prepositional Phrase Roles: SNACS Supersenses vs. Tectogrammatical Functors"
+      institution: <em>Wesley Scivetti and Nathan Schneider</em>
+      year: 12:15 - 12:30
+      description:
+        - Georgetown University
+
+- title:
+  type: time_table
+  contents:
+    - title: Lunch
+      year: "12: 30 - 14:00"
+- title:
+  type: time_table
+  contents:
+    - title: Invited Talk 2
+      year: "14: 00 - 14:50"
+
+- title:
+  type: time_table
+  contents:
+    - title: "QA-Adj: Adding Adjectives to QA-based Semantics"
+      institution: <em>Leon Pesahov<sup>1</sup>,&nbsp;Ayal Klein<sup>2</sup>,&nbsp;Ido Dagan<sup>3</sup></em>
+      year: 14:50 - 15:10
+      description:
+        - <sup>1</sup>Bar Ilan University, Ramat Gan, Israel
+        - <sup>2</sup>Bar Ilan University
+        - <sup>3</sup>Bar-Ilan University
+    - title: "The long and the short of it: a new dataset of semantically annotated sentences of more natural length"
+      institution: <em>Dag Haug<sup>1</sup>,&nbsp;Jamie Findlay<sup>1</sup>,&nbsp;Ahmet Yildirim<sup>2</sup></em>
+      year: 15:10 - 15:30
+      description:
+        - <sup>1</sup>University of Oslo
+        - <sup>2</sup>Senior Engineer
+
+- title:
+  type: time_table
+  contents:
+    - title: Break
+      year: "15: 30 - 16:00"
+
+- title:
+  type: time_table
+  contents:
+    - title: UMR Annotation of Multiword Expressions
+      institution: <em>Nianwen Xue<sup>1</sup>,&nbsp;Julia Bonn<sup>2</sup>,&nbsp;Andrew Cowell<sup>3</sup>,&nbsp;Jan Hajič<sup>4</sup>,&nbsp;Alexis Palmer<sup>5</sup>,&nbsp;Martha Palmer<sup>6</sup>,&nbsp;James Pustejovsky<sup>1</sup>,&nbsp;Haibo Sun<sup>1</sup>,&nbsp;Zdenka Uresova<sup>4</sup>,&nbsp;Shira Wein<sup>7</sup>,&nbsp;Jin Zhao<sup>1</sup></em>
+      year: 16:00 - 16:20
+      description:
+        - <sup>1</sup>Brandeis University
+        - <sup>2</sup>University of Colorado, Boulder
+        - <sup>3</sup>U. of Colorado
+        - <sup>4</sup>Charles University
+        - <sup>5</sup>University of Colorado Boulder
+        - <sup>6</sup>University of Colorado
+        - <sup>7</sup>Georgetown University
+    - title: "MR4AP: Meaning Representation for Application Purposes"
+      institution: <em>Bastien Giordano and Cédric Lopez</em>
+      year: 16:20 - 16:40
+      description:
+        - Emvista
+    - title: Claim Extraction via Subgraph Matching over Modal and Syntactic Dependencies
+      institution: <em>Benjamin Rozonoyer<sup>1</sup>,&nbsp;David Zajic<sup>2</sup>,&nbsp;Ilana Heintz<sup>3</sup>,&nbsp;Michael Selvaggio<sup>2</sup></em>
+      year: 16:40 - 17:00
+      description:
+        - <sup>1</sup>University of Massachusetts Amherst
+        - <sup>2</sup>Raytheon BBN Technologies
+        - <sup>3</sup>Synoptic Engineering
+    - title: Which Argumentative Aspects of Hate Speech in Social Media can be reliably identified?
+      institution: <em>Damián Ariel Furman<sup>1</sup>,&nbsp;Pablo Torres<sup>2</sup>,&nbsp;José Rodríguez<sup>2</sup>,&nbsp;Laura Alonso Alemany<sup>2</sup>,&nbsp;Diego Letzen<sup>2</sup>,&nbsp;Vanina Martínez<sup>3</sup></em>
+      year: 17:00 - 17:20
+      description:
+        - <sup>1</sup>Universidad de Buenos Aires
+        - <sup>2</sup>Universidad Nacional de Córdoba
+        - <sup>3</sup>IIIA-CSIC
