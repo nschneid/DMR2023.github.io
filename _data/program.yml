@@ -7,13 +7,13 @@
 - title:
   type: time_table
   contents:
-    - title: Structural and Global Features for Comparing Semantic Representation Formalisms
+    - title: <a href="../pdf/2023.dmr-1.1.pdf">Structural and Global Features for Comparing Semantic Representation Formalisms</a>
       institution: "<em>Siyana Pavlova<sup>1</sup>,&nbsp;Maxime Amblard<sup>1</sup>,&nbsp;Bruno Guillaume<sup>2</sup></em>"   
       year: "9:50 - 10:10"
       description:
         - <sup>1</sup>Université de Lorraine, 
         - <sup>2</sup>LORIA / Inria Nancy Grand-Est
-    - title: Evaluation of Universal Semantic Representation (USR)
+    - title: <a href="../pdf/2023.dmr-1.2.pdf">Evaluation of Universal Semantic Representation (USR)</a>
       institution: "<em>Kirti Garg<sup>1</sup>,&nbsp;Soma Paul<sup>2</sup>,&nbsp;Sukhada Sukhada<sup>3</sup>,&nbsp;Fatema Bawahir<sup>4</sup>,&nbsp;Riya Kumari<sup>5</sup></em>"
       year: "10:10 - 10:30"
       description:
@@ -31,31 +31,31 @@
 - title:
   type: time_table
   contents:
-    - title: Comparing UMR and Cross-lingual Adaptations of AMR
+    - title: <a href="../pdf/2023.dmr-1.3.pdf">Comparing UMR and Cross-lingual Adaptations of AMR</a>
       institution: <em>Shira Wein<sup>1</sup> and Julia Bonn<sup>2</sup></em>
       year: 11:00 - 11:20
       description:
         - <sup>1</sup>Georgetown University
         - <sup>2</sup>University of Colorado, Boulder
-    - title: AMR for Grounded Human-Robot Communication
+    - title: <a href="../pdf/2023.dmr-1.4.pdf">AMR for Grounded Human-Robot Communication</a>
       institution: <em>Claire Bonial<sup>1</sup>,&nbsp;Julie Foresta<sup>1</sup>,&nbsp;Nicholas Fung<sup>1</sup>,&nbsp;Cory Hayes<sup>1</sup>,&nbsp;Philip Osteen<sup>1</sup>,&nbsp;Jacob Arkin<sup>2</sup>,&nbsp;Benned Hedegaard<sup>3</sup>,&nbsp;Thomas Howard<sup>3</sup></em>
       year: 11:20 - 11:40 
       description:
         - <sup>1</sup>US Army Research Lab
         - <sup>2</sup>Massachusetts Institute of Technology
         - <sup>3</sup>University of Rochester
-    - title: Annotating Situated Actions in Dialogue
+    - title: <a href="../pdf/2023.dmr-1.5.pdf">Annotating Situated Actions in Dialogue</a>
       institution: <em>Christopher Tam,&nbsp;Richard Brutti,&nbsp;Kenneth Lai,&nbsp;James Pustejovsky</em>
       year: 11:40 - 11:55
       description:
         - Brandeis University
-    - title: "From Sentence to Action: Splitting AMR Graphs for Recipe Instructions"
+    - title: '<a href="../pdf/2023.dmr-1.6.pdf">From Sentence to Action: Splitting AMR Graphs for Recipe Instructions</a>'
       institution: <em>Katharina Stein<sup>1</sup>,&nbsp;Lucia Donatelli<sup>2</sup>,&nbsp;Alexander Koller<sup>1</sup></em>
       year: 11:55 - 12:15
       description:
         - <sup>1</sup>Saarland University
         - <sup>2</sup>Vrije Universiteit Amsterdam
-    - title: "Meaning Representation of English Prepositional Phrase Roles: SNACS Supersenses vs. Tectogrammatical Functors"
+    - title: '<a href="../pdf/2023.dmr-1.7.pdf">Meaning Representation of English Prepositional Phrase Roles: SNACS Supersenses vs. Tectogrammatical Functors</a>'
       institution: <em>Wesley Scivetti and Nathan Schneider</em>
       year: 12:15 - 12:30
       description:
@@ -75,14 +75,14 @@
 - title:
   type: time_table
   contents:
-    - title: "QA-Adj: Adding Adjectives to QA-based Semantics"
+    - title: "<a href='../pdf/2023.dmr-1.8.pdf'>QA-Adj: Adding Adjectives to QA-based Semantics</a>"
       institution: <em>Leon Pesahov<sup>1</sup>,&nbsp;Ayal Klein<sup>2</sup>,&nbsp;Ido Dagan<sup>3</sup></em>
       year: 14:50 - 15:10
       description:
         - <sup>1</sup>Bar Ilan University, Ramat Gan, Israel
         - <sup>2</sup>Bar Ilan University
         - <sup>3</sup>Bar-Ilan University
-    - title: "The long and the short of it: a new dataset of semantically annotated sentences of more natural length"
+    - title: "<a href='../pdf/2023.dmr-1.9.pdf'>The long and the short of it: a new dataset of semantically annotated sentences of more natural length</a>"
       institution: <em>Dag Haug<sup>1</sup>,&nbsp;Jamie Findlay<sup>1</sup>,&nbsp;Ahmet Yildirim<sup>2</sup></em>
       year: 15:10 - 15:30
       description:
@@ -98,7 +98,7 @@
 - title:
   type: time_table
   contents:
-    - title: UMR Annotation of Multiword Expressions
+    - title: <a href="../pdf/2023.dmr-1.10.pdf">UMR Annotation of Multiword Expressions</a>
       institution: <em>Nianwen Xue<sup>1</sup>,&nbsp;Julia Bonn<sup>2</sup>,&nbsp;Andrew Cowell<sup>3</sup>,&nbsp;Jan Hajič<sup>4</sup>,&nbsp;Alexis Palmer<sup>5</sup>,&nbsp;Martha Palmer<sup>6</sup>,&nbsp;James Pustejovsky<sup>1</sup>,&nbsp;Haibo Sun<sup>1</sup>,&nbsp;Zdenka Uresova<sup>4</sup>,&nbsp;Shira Wein<sup>7</sup>,&nbsp;Jin Zhao<sup>1</sup></em>
       year: 16:00 - 16:20
       description:
@@ -109,19 +109,19 @@
         - <sup>5</sup>University of Colorado Boulder
         - <sup>6</sup>University of Colorado
         - <sup>7</sup>Georgetown University
-    - title: "MR4AP: Meaning Representation for Application Purposes"
+    - title: "<a href='../pdf/2023.dmr-1.11.pdf'>MR4AP: Meaning Representation for Application Purposes</a>"
       institution: <em>Bastien Giordano and Cédric Lopez</em>
       year: 16:20 - 16:40
       description:
         - Emvista
-    - title: Claim Extraction via Subgraph Matching over Modal and Syntactic Dependencies
+    - title: <a href="../pdf/2023.dmr-1.12.pdf">Claim Extraction via Subgraph Matching over Modal and Syntactic Dependencies</a>
       institution: <em>Benjamin Rozonoyer<sup>1</sup>,&nbsp;David Zajic<sup>2</sup>,&nbsp;Ilana Heintz<sup>3</sup>,&nbsp;Michael Selvaggio<sup>2</sup></em>
       year: 16:40 - 17:00
       description:
         - <sup>1</sup>University of Massachusetts Amherst
         - <sup>2</sup>Raytheon BBN Technologies
         - <sup>3</sup>Synoptic Engineering
-    - title: Which Argumentative Aspects of Hate Speech in Social Media can be reliably identified?
+    - title: <a href="../pdf/2023.dmr-1.13.pdf">Which Argumentative Aspects of Hate Speech in Social Media can be reliably identified?</a>
       institution: <em>Damián Ariel Furman<sup>1</sup>,&nbsp;Pablo Torres<sup>2</sup>,&nbsp;José Rodríguez<sup>2</sup>,&nbsp;Laura Alonso Alemany<sup>2</sup>,&nbsp;Diego Letzen<sup>2</sup>,&nbsp;Vanina Martínez<sup>3</sup></em>
       year: 17:00 - 17:20
       description:
